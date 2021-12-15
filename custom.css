@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+  background: #F3DAAF;
+  font-family: 'Karla', sans-serif;
+}
+
+          /* HEADER */  
+
+header{
+  height: 100vh;
+  background-image: linear-gradient(120deg, rgba(246, 211, 101, 0.2) 0%, rgba(253, 160, 133, 0.5)), url("img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.title{
+  font-size: 60px;
+  margin-bottom: 15px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: #666666 2px 5px;
+}
+
+.sub-title{
+  font-size: px;
+}
+
+          /* MAIN */
+
+.form-register {
+  width: 400px;
+  background: #D17C02;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: white;
+}
+
+.form-register h4 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 95%;
+  background: #634736;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #C37D03;
+  font-size: 18px;
+  color: white;
+}
+
+
+.form-register a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #FF0000;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 20px;
+}
+
+.form-register .botons:hover{
+  cursor: pointer;
+}
+
+                  /* FOOTER */
+
+.footer{
+  font-size: 30px;
+  color: #fff;
+  padding: 20px;
+  background: #D17C02;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.error{
+  text-align: center;
+}
+
+
+
+
+/* PAGE */ 
+
+#body-page {
+  background: #FAB64F;
+  font-family: 'calibri';
+}
+
+#header-page {
+  background: #D66839;
+  height: 10vh;
+}
+
+.logo {
+  width: 120px;
+  height: 50px;
+  float: left;
+  padding: 8px;
+
+}
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+.nav {
+  float: right;
+}
+
+.nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #292929;
+  font-weight: bold;
+}
+
+.nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #292929;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+.nav ul li a:hover::before {
+  width: 100%;
+}
